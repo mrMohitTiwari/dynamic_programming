@@ -33,7 +33,7 @@ int main() {
     cin>>n;
         int *arr = new int[n+1];
     for(int i =0;i<=n;i++) arr[i]=0;
-cout<<"output from recursive sol "<<fib(n,arr);
+cout<<"output from recursive sol  "<<fib(n,arr);
 cout<<"\noutput from iterative sol "<<fib2(n)<<"\n";
 cout<<"solution from old fibonacci number is "<<fib_old(n);
     return 0;
