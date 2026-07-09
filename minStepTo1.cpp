@@ -18,7 +18,9 @@ for(int i =2;i<=n;i++)
     dp[i] = min(x, min(y, z)) + 1;
 
 }
-return dp[n];
+int ans = dp[n];
+delete []dp;
+return ans;
 }
 int helper(int n, int *a)
 {
